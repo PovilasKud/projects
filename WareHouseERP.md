@@ -1,21 +1,21 @@
 
 ## WareHouse ERP for US Bike parts company
-I have build an cloud application for US company which was selling Bike parts on Ebay. The problem they have faced that they could't track 
+I have build an cloud application for US company which is selling Bike parts on Ebay. The problem they had was that htey could not track their sales on ebay and on the spot. There was times that they sold item on the spot and then again on the ebay or vise vesra.
+
+My provided solution was a cloud application which had all there warehouse synchronized with Ebay with Ebay API. Periodic requests made to Ebay API using Celery background tasks. Beside this main feature there was also a competitor tracking on ebay, statistics, exports and other features.
 
 ## TECHNOLOGIES USED
 
-DJANGO - Backend engine for.
+DJANGO - Backend engine. 
 
 CELERY - For managing periodic background tasks.
 
-APIs - Freelance platform APIs for getting new projects, placing bids. Had to write API wrappers as there was no.
+APIs - Ebay API for warehouse sync.
 
 REDIS - For celery as message broker.
 
 POSTGRESQL - For database engine.
 
-AMAZON AWS EC2 - project deployed on Ubuntu server.
+Digital Ocean Droplet - project deployed on Ubuntu server.
 
 SUPERVISOR - For managing services.
-
-![alt text](https://preview.ibb.co/dygC8H/Screenshot_1.jpg "Architect")
