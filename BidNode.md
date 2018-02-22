@@ -1,6 +1,6 @@
 
 ## BidNode.io PLATFORM FOR FREELANCERS
-BIDNODE is a platform developed for freelancers that are bidding on project on Freelancer.com and UpWork.com. It gathers data about projects, project owners and gives advantage for bidder against competitors. 
+BIDNODE is a platform developed for freelancers that are bidding on projects in Freelancer.com and UpWork.com. It gathers data about projects, project owners and gives advantage for bidder against competitors. 
 
 ## TECHNOLOGIES USED
 
